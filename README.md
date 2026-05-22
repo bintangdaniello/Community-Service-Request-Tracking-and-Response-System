@@ -137,4 +137,4 @@ Community-Service-Request-Tracking-and-Response-System/
 Built after completing IST242 as a personal improvement project. Adds a full desktop GUI using CustomTkinter and persistent storage with SQLite, while keeping the same layered architecture from v1.
 
 ### v1 — CLI Version (IST242 Course Submission)
-The original console-based version submitted as a course project for IST242 — Intermediate & Object-Oriented Application Development. Focused on OOP fundamentals: inheritance, encapsulation, and polymorphism. Source code is preserved in the `cli-version/` folder.
+The original console-based version submitted as a course project for IST242. Focused on OOP fundamentals: inheritance, encapsulation, and polymorphism. Source code is preserved in the `cli-version/` folder.
