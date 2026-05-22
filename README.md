@@ -1,16 +1,16 @@
 # Community Service Request Tracking and Response System
 
-A desktop application for managing and tracking community service requests, supporting three request types — Maintenance, Event Support, and Emergency — with full CRUD operations, priority sorting, and automated recommendations.
+A desktop application for managing and tracking community service requests, supporting three request types: Maintenance, Event Support, and Emergency, with full CRUD operations, priority sorting, and automated recommendations.
 
 ---
 
 ## Background
 
-This project started as a final assignment for **IST242 — Intermediate & Object-Oriented Application Development**. The original version was a console-based CLI application that demonstrated core object-oriented programming concepts such as inheritance, encapsulation, and polymorphism — with the same layered architecture used in the current version.
+This project started as a final assignment for **IST242 — Intermediate & Object-Oriented Application Development**. The original version was a console-based CLI application that demonstrated core object-oriented programming concepts such as inheritance, encapsulation, and polymorphism, with the same layered architecture used in the current version.
 
-After completing the course, I continued developing the project independently to sharpen my skills further. The improved version introduces a full desktop GUI built with CustomTkinter and persistent data storage using SQLite, while keeping the same overall architecture intact.
+After completing the course, I continued developing the project independently to take my skills further. The improved version introduces a full desktop GUI built with CustomTkinter and persistent data storage using SQLite, while keeping the same overall architecture intact.
 
-As a Cybersecurity student, I also made sure to apply security best practices during development — all database interactions use **parameterized queries** to prevent SQL injection attacks, rather than building raw query strings from user input.
+As a Cybersecurity student, I also made sure to apply security best practices during development. All database interactions use **parameterized queries** to prevent SQL injection attacks, rather than building raw query strings from user input.
 
 ---
 
@@ -36,7 +36,7 @@ As a Cybersecurity student, I also made sure to apply security best practices du
 
 ## Security
 
-All database queries are executed using **parameterized queries** (also known as prepared statements) via Python's `sqlite3` module. This ensures that user input is never interpolated directly into SQL strings, effectively preventing SQL injection attacks.
+All database queries are executed using **parameterized queries** (also known as prepared statements) via Python's `sqlite3` module. This ensures that user input is never interpolated directly into SQL strings, preventing SQL injection attacks.
 
 ```python
 # Safe — user input is passed as a parameter, never concatenated into the query
