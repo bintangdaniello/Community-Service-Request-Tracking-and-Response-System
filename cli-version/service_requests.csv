@@ -1,0 +1,16 @@
+request_id,request_type,requester_name,location,urgency_level,estimated_cost,status,issue_type,days_open,attendees,event_date,hazard_level,response_time_minutes
+SR101,Maintenance,John Carter,Downtown,4,850.00,Open,Pothole,12,,,,
+SR102,EventSupport,Maria Lopez,Riverside Park,3,1200.00,In Progress,,,250,2026-05-18,,
+SR103,Emergency,Green Valley School,North District,5,3500.00,Open,,,,,5,8
+SR104,Maintenance,Aisha Brown,West End,2,300.00,Closed,Streetlight,3,,,,
+SR105,EventSupport,David Nguyen,Community Center,4,2000.00,Open,,,500,2026-06-02,,
+SR106,Emergency,Oak Street Clinic,Central Zone,5,5000.00,In Progress,,,,,4,12
+SR107,Maintenance,Lena Patel,South Hill,3,640.00,Open,Water Leak,7,,,,
+SR108,EventSupport,City Youth Council,East Field,2,900.00,Open,,,150,2026-05-25,,
+SR109,Emergency,Harbor Storage,Industrial Park,4,2750.00,Open,,,,,3,20
+SR110,Maintenance,Nina Foster,Maple Avenue,5,1450.00,Open,Sidewalk Damage,18,,,,
+SR111,EventSupport,Brookside Neighborhood Assoc.,Brookside Park,3,1750.00,Open,,,325,2026-06-14,,
+SR112,Emergency,Transit Depot,South Transit Hub,5,6200.00,In Progress,,,,,5,6
+SR113,Maintenance,Paul Reyes,Elm Street,1,180.00,Closed,Graffiti,2,,,,
+SR114,EventSupport,Westside Youth Sports,West Field,4,2200.00,Open,,,600,2026-07-01,,
+SR120,Emergency,Joanna Schummer,North Sinai,4,750.00,In Progress,,,,,10,70
