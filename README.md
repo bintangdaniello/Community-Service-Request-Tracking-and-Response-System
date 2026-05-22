@@ -6,7 +6,7 @@ A desktop application for managing and tracking community service requests, supp
 
 ## Background
 
-This project started as a final assignment for **IST242 — Intermediate & Object-Oriented Application Development**. The original version was a console-based CLI application that demonstrated core object-oriented programming concepts such as inheritance, encapsulation, and polymorphism, with the same layered architecture used in the current version.
+This project started as a final assignment for **IST242 — Intermediate & Object-Oriented Application Development**. The original version was a console-based CLI application that covered object-oriented programming concepts such as inheritance, encapsulation, and polymorphism, with the same layered architecture used in the current version.
 
 After completing the course, I continued developing the project independently to take my skills further. The improved version introduces a full desktop GUI built with CustomTkinter and persistent data storage using SQLite, while keeping the same overall architecture intact.
 
