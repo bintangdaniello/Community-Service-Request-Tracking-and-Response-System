@@ -36,7 +36,7 @@ As a Cybersecurity student, I also made sure to apply security best practices du
 
 ## Security
 
-All database queries are executed using **parameterized queries** (also known as prepared statements) via Python's `sqlite3` module. This ensures that user input is never interpolated directly into SQL strings, preventing SQL injection attacks.
+All database queries are executed using **parameterized queries** (also known as prepared statements) via Python's `sqlite3` module. This ensures that user input is never interpolated directly into SQL strings. This is done to prevent SQL injection attacks.
 
 ```python
 # Safe — user input is passed as a parameter, never concatenated into the query
