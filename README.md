@@ -124,7 +124,7 @@ Community-Service-Request-Tracking-and-Response-System/
 
 | Field | Details |
 |---|---|
-| Request ID | Numbers only — the `SR` prefix is added automatically (e.g. `001` → `SR001`) |
+| Request ID | Numbers only. The `SR` prefix is added automatically (e.g. `001` → `SR001`) |
 | Urgency Level | Integer from 1 (low) to 5 (critical) |
 | Status | `Open`, `In Progress`, or `Closed` |
 | Event Date | Format: `YYYY-MM-DD` |
